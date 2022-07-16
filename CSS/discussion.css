@@ -1,0 +1,20 @@
+.modal-dialog {
+    min-height: calc(100vh - 60px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: auto;
+
+  }
+
+  .modal-header,
+  .close {
+    background-color:orange;
+    color: white !important;
+    text-align: center;
+    font-size: 50px;
+  }
+
+  .modal-footer {
+    background-color: #f9f9f9;
+  }

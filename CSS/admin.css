@@ -1,0 +1,32 @@
+#header {
+  background: url() center center / cover no-repeat;
+}
+.card:hover {
+  transform: scale(1.1);
+  opacity: 1;
+}
+.card {
+  opacity: 1;
+}
+.card-img-top {
+  height: 300px;
+  width: 100%;
+}
+.modal-dialog {
+  min-height: calc(100vh - 60px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: auto;
+}
+.modal-header,
+.close {
+  background-color: orange;
+  color: white !important;
+  text-align: center;
+  font-size: 50px;
+}
+
+.modal-footer {
+  background-color: #f9f9f9;
+}
